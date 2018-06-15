@@ -21,8 +21,8 @@ mongoose
     .then(()=> console.log('mongo db connected'))
     .catch(err => console.log(err));
 
-app.get('/', (req, res) => res.send('hello!!!')); //router to a homepage
- 
+app.get('/', (req, res) => res.send('hello Bootcamp!!!')); //router to a homepage
+
 // USE ROUTES
 
 app.use('/api/users', users);
